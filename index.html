@@ -1,212 +1,211 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Remote Rescue - Fast &amp; Friendly TV Help</title>
-    <meta name="description" content="TV or remote not working? Get instant, friendly help to fix common issues like wrong inputs, HDMI problems, and more. Perfect for everyone, especially seniors.">
-    
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-
-    <!-- Custom Styles -->
-    <style>
-        body {
-            font-family: 'Poppins', sans-serif;
-        }
-    </style>
-
-    <!-- Intercom Loader -->
-    <script>
-        (function(){
-          var w=window;
-          var ic=w.Intercom;
-          if(typeof ic==="function"){
-            ic('reattach_activator');
-            ic('update',w.intercomSettings);
-          } else {
-            var d=document;
-            var i=function(){i.c(arguments);};
-            i.q=[];
-            i.c=function(args){i.q.push(args);};
-            w.Intercom=i;
-            var l=function(){
-              var s=d.createElement('script');
-              s.type='text/javascript';
-              s.async=true;
-              s.src='https://widget.intercom.io/widget/v3z0dbav';
-              var x=d.getElementsByTagName('script')[0];
-              x.parentNode.insertBefore(s,x);
-            };
-            if(document.readyState==='complete'){
-              l();
-            } else if(w.attachEvent){
-              w.attachEvent('onload',l);
-            } else {
-              w.addEventListener('load',l,false);
-            }
-          }
-        })();
-    </script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="RemoteFix helps you fix your remote control, cable box, and HDMI input problems with one click. Perfect for Spectrum remotes and any TV brand.">
+  <meta name="keywords" content="remote control help, HDMI fix, Spectrum remote, TV input issue, cable box support, smart TV troubleshooting, remote not working">
+  <meta name="author" content="RemoteFix Team">
+  <title>RemoteFix — Fix Your Remote & TV Input in Seconds</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9fafb;
+      color: #1f2937;
+    }
+    header {
+      background: #0f172a;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+    .container {
+      max-width: 960px;
+      margin: 3rem auto;
+      padding: 0 1rem;
+    }
+    .feature {
+      background: white;
+      border-radius: 0.5rem;
+      padding: 2rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 0 20px rgba(0,0,0,0.05);
+    }
+    .feature h2 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+    .feature p {
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+    .pricing {
+      display: flex;
+      gap: 2rem;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    .plan {
+      background: #ffffff;
+      border: 1px solid #e5e7eb;
+      border-radius: 0.5rem;
+      padding: 2rem;
+      flex: 1;
+      min-width: 250px;
+      text-align: center;
+    }
+    .plan h3 {
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+    .plan p {
+      font-size: 1rem;
+      margin-bottom: 1rem;
+    }
+    .plan span {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    .cta {
+      text-align: center;
+      margin-top: 3rem;
+    }
+    .cta button {
+      background: #3b82f6;
+      color: white;
+      padding: 1rem 2rem;
+      font-size: 1.2rem;
+      border: none;
+      border-radius: 0.5rem;
+      cursor: pointer;
+    }
+    footer {
+      background: #f3f4f6;
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #6b7280;
+    }
+  </style>
 </head>
-<body class="bg-gray-50 text-gray-800">
+<body>
 
-    <!-- Header -->
-    <header class="bg-white shadow-sm">
-        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
-            <h1 class="text-2xl font-bold text-blue-600">Remote Rescue</h1>
-            <a href="#pricing" class="bg-blue-600 text-white font-semibold px-4 py-2 rounded-lg hover:bg-blue-700 transition">Get Help Now</a>
-        </div>
-    </header>
+<header>
+  <h1>RemoteFix</h1>
+  <p>Fix your TV, remote, or cable box in seconds — no tech skills required.</p>
+</header>
 
-    <!-- Hero Section -->
-    <main>
-        <section id="hero" class="py-20 bg-white">
-            <div class="container mx-auto px-6 text-center">
-                <h2 class="text-4xl md:text-5xl font-bold text-gray-900">TV Acting Up Again?</h2>
-                <p class="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">Get back to your favorite shows in minutes. We offer simple, friendly guidance to fix those confusing remote and TV problems.</p>
-                <a href="#pricing" class="mt-8 inline-block bg-blue-600 text-white font-bold px-8 py-4 rounded-lg text-lg hover:bg-blue-700 transition">Fix My TV Now</a>
-            </div>
-        </section>
+<div class="container">
 
-        <!-- How It Works Section -->
-        <section id="how-it-works" class="py-20">
-            <div class="container mx-auto px-6">
-                <h3 class="text-3xl font-bold text-center text-gray-900">Get Help in 3 Simple Steps</h3>
-                <div class="mt-12 grid md:grid-cols-3 gap-12 text-center">
-                    <div class="step">
-                        <div class="mb-4 inline-block p-4 bg-blue-100 text-blue-600 rounded-full text-3xl">1</div>
-                        <h4 class="text-xl font-semibold">Contact Us</h4>
-                        <p class="mt-2 text-gray-600">Call our friendly team or choose a plan to start a chat.</p>
-                    </div>
-                    <div class="step">
-                        <div class="mb-4 inline-block p-4 bg-blue-100 text-blue-600 rounded-full text-3xl">2</div>
-                        <h4 class="text-xl font-semibold">Follow Our Lead</h4>
-                        <p class="mt-2 text-gray-600">We'll guide you with easy, step-by-step instructions.</p>
-                    </div>
-                    <div class="step">
-                        <div class="mb-4 inline-block p-4 bg-blue-100 text-blue-600 rounded-full text-3xl">3</div>
-                        <h4 class="text-xl font-semibold">Problem Solved!</h4>
-                        <p class="mt-2 text-gray-600">Enjoy your shows! Your TV and remote are back to normal.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+  <div class="feature">
+    <h2>📺 Real Help for Real Problems</h2>
+    <p>
+      Ever hit the wrong button on your Spectrum remote and now the TV says "No Signal"? You're not alone. RemoteFix helps older adults and anyone else quickly get their smart TV, cable box, and HDMI inputs working again — just like they were before.
+    </p>
+  </div>
 
-        <!-- Common Problems Section -->
-        <section id="problems" class="py-20 bg-white">
-            <div class="container mx-auto px-6">
-                <h3 class="text-3xl font-bold text-center text-gray-900">We Fix All Common Issues</h3>
-                <p class="text-center mt-2 text-gray-600">Compatible with Spectrum™ Universal Remotes and all major TV brands.</p>
-                <div class="mt-12 grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
-                    <div class="p-6 bg-gray-100 rounded-lg text-center">
-                        <h4 class="font-semibold text-lg">Wrong Input or HDMI</h4>
-                    </div>
-                    <div class="p-6 bg-gray-100 rounded-lg text-center">
-                        <h4 class="font-semibold text-lg">"No Signal" Message</h4>
-                    </div>
-                    <div class="p-6 bg-gray-100 rounded-lg text-center">
-                        <h4 class="font-semibold text-lg">Remote Not Responding</h4>
-                    </div>
-                    <div class="p-6 bg-gray-100 rounded-lg text-center">
-                        <h4 class="font-semibold text-lg">No Sound or Picture</h4>
-                    </div>
-                </div>
-            </div>
-        </section>
+  <div class="feature">
+    <h2>🔄 Works with All TVs & Remotes</h2>
+    <p>
+      Whether it's Samsung, LG, Sony, TCL, Hisense, Vizio, Panasonic, or any other brand — we’ve got you covered. RemoteFix is fully compatible with all major TV brands and the Spectrum Universal Remote.
+    </p>
+  </div>
 
-        <!-- Testimonials Section -->
-        <section id="testimonials" class="py-20">
-            <div class="container mx-auto px-6">
-                <h3 class="text-3xl font-bold text-center text-gray-900">What Our Customers Say</h3>
-                <div class="mt-12 grid md:grid-cols-2 gap-8">
-                    <div class="bg-white p-8 rounded-lg shadow-md">
-                        <p class="text-gray-600">"I thought I broke my new TV! The person on the phone was so patient and fixed it in two minutes. It was just the wrong button. What a relief!"</p>
-                        <p class="mt-4 font-bold">- Sarah J., Florida</p>
-                    </div>
-                    <div class="bg-white p-8 rounded-lg shadow-md">
-                        <p class="text-gray-600">"My grandkids got me this subscription for my birthday. It's the best gift I've ever received. I don't have to call them for TV help anymore!"</p>
-                        <p class="mt-4 font-bold">- David L., California</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+  <div class="feature">
+    <h2>🧠 Simple, Guided Fixes</h2>
+    <p>
+      We walk you through exactly what to do when your remote stops working, when the HDMI input is wrong, or when the cable box isn't responding. Most fixes take less than 2 minutes.
+    </p>
+  </div>
 
-        <!-- Pricing Section -->
-        <section id="pricing" class="py-20 bg-white">
-            <div class="container mx-auto px-6">
-                <h3 class="text-3xl font-bold text-center text-gray-900">Choose Your Plan</h3>
-                <div class="mt-12 grid lg:grid-cols-4 gap-8">
-                    <!-- Per-Use -->
-                    <div class="border border-gray-200 rounded-lg p-8 text-center">
-                        <h4 class="font-bold text-xl">One-Time Fix</h4>
-                        <p class="mt-4 text-4xl font-bold">$25</p>
-                        <p class="text-gray-500">per incident</p>
-                        <a href="#" class="mt-6 inline-block bg-gray-200 text-gray-800 font-semibold px-6 py-3 rounded-lg w-full">Get Help</a>
-                    </div>
-                    <!-- Monthly -->
-                    <div class="border border-gray-200 rounded-lg p-8 text-center">
-                        <h4 class="font-bold text-xl">Peace of Mind</h4>
-                        <p class="mt-4 text-4xl font-bold">$9<span class="text-lg font-medium">/mo</span></p>
-                        <p class="text-gray-500">Billed monthly</p>
-                        <a href="#" class="mt-6 inline-block bg-gray-200 text-gray-800 font-semibold px-6 py-3 rounded-lg w-full">Choose Monthly</a>
-                    </div>
-                    <!-- Yearly -->
-                    <div class="border-2 border-blue-600 rounded-lg p-8 text-center relative">
-                        <span class="bg-blue-600 text-white text-sm font-semibold px-3 py-1 rounded-full absolute -top-4">Best Value</span>
-                        <h4 class="font-bold text-xl">Annual Plan</h4>
-                        <p class="mt-4 text-4xl font-bold">$99<span class="text-lg font-medium">/yr</span></p>
-                        <p class="text-gray-500">Save 10%</p>
-                        <a href="#" class="mt-6 inline-block bg-blue-600 text-white font-semibold px-6 py-3 rounded-lg w-full">Choose Yearly</a>
-                    </div>
-                    <!-- Lifetime -->
-                    <div class="border border-gray-200 rounded-lg p-8 text-center">
-                        <h4 class="font-bold text-xl">Lifetime</h4>
-                        <p class="mt-4 text-4xl font-bold">$299</p>
-                        <p class="text-gray-500">One-time payment</p>
-                        <a href="#" class="mt-6 inline-block bg-gray-200 text-gray-800 font-semibold px-6 py-3 rounded-lg w-full">Choose Lifetime</a>
-                    </div>
-                </div>
-            </div>
-        </section>
+  <div class="feature">
+    <h2>💡 Use Case: HDMI Confusion</h2>
+    <p>
+      The most common issue? Accidentally switching the TV to the wrong HDMI input. RemoteFix helps users identify the correct input and get everything back to normal — no tech jargon, no frustration.
+    </p>
+  </div>
 
-        <!-- FAQ Section -->
-        <section id="faq" class="py-20">
-            <div class="container mx-auto px-6 max-w-3xl">
-                <h3 class="text-3xl font-bold text-center text-gray-900">Frequently Asked Questions</h3>
-                <div class="mt-8 space-y-4">
-                    <div>
-                        <h4 class="font-semibold text-lg">What if you can't fix my problem?</h4>
-                        <p class="text-gray-600">If we can't solve your issue, you don't pay. It's that simple.</p>
-                    </div>
-                    <div>
-                        <h4 class="font-semibold text-lg">Is this service secure?</h4>
-                        <p class="text-gray-600">Absolutely. We never ask for personal information or access to your devices. All guidance is provided over the phone or chat.</p>
-                    </div>
-                    <div>
-                        <h4 class="font-semibold text-lg">What are your hours?</h4>
-                        <p class="text-gray-600">Our friendly support team is available from 8 AM to 10 PM EST, 7 days a week.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
+  <div class="feature">
+    <h2>💬 Live Support When You Need It</h2>
+    <p>
+      Need help right now? Our support team is just a click away via live chat. We specialize in helping seniors and non-tech users feel confident and in control again.
+    </p>
+  </div>
 
-    <!-- Footer -->
-    <footer class="bg-gray-800 text-white py-8">
-        <div class="container mx-auto px-6 text-center">
-            <p>&copy; 2025 Remote Rescue. All Rights Reserved.</p>
-            <div class="mt-4">
-                <a href="terms.html" class="text-gray-400 hover:text-white mx-2">Terms of Service</a>
-                <a href="privacy.html" class="text-gray-400 hover:text-white mx-2">Privacy Policy</a>
-            </div>
-        </div>
-    </footer>
+  <div class="feature">
+    <h2>💳 Flexible Pricing</h2>
+    <div class="pricing">
+      <div class="plan">
+        <h3>Per Use</h3>
+        <span>$4.99</span>
+        <p>One-time fix, no account required.</p>
+      </div>
+      <div class="plan">
+        <h3>Monthly</h3>
+        <span>$9.99/mo</span>
+        <p>Unlimited fixes, live chat, and priority support.</p>
+      </div>
+      <div class="plan">
+        <h3>Yearly</h3>
+        <span>$89.99/yr</span>
+        <p>Save 25% — best for families and caregivers.</p>
+      </div>
+      <div class="plan">
+        <h3>Lifetime</h3>
+        <span>$199</span>
+        <p>One payment. Forever support.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="cta">
+    <button onclick="window.location.href='/get-started'">Get Started</button>
+    <p>Or call us at 1-800-REMOTE-FIX</p>
+  </div>
+
+</div>
+
+<footer>
+  &copy; 2025 RemoteFix. All rights reserved. | Built for the real world.
+</footer>
+
+<!-- Intercom Loader -->
+<script>
+(function(){
+  var w=window; var ic=w.Intercom;
+  if(typeof ic==="function"){
+    ic('reattach_activator');
+    ic('update',w.intercomSettings);
+  } else {
+    var d=document; var i=function(){i.c(arguments);};
+    i.q=[]; i.c=function(args){i.q.push(args);}; w.Intercom=i;
+    var l=function(){
+      var s=d.createElement('script');
+      s.type='text/javascript'; s.async=true;
+      s.src='https://widget.intercom.io/widget/mvbj6qcv';
+      var x=d.getElementsByTagName('script')[0];
+      x.parentNode.insertBefore(s,x);
+    };
+    if(document.readyState==='complete'){ l(); }
+    else if(w.attachEvent){ w.attachEvent('onload',l); }
+    else { w.addEventListener('load',l,false); }
+  }
+})();
+</script>
+
+</body>
+</html>
 
 </body>
 </html>
