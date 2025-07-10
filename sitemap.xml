@@ -1,0 +1,18 @@
+&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"&gt;
+  &lt;url&gt;
+    &lt;loc&gt;https://www.your-domain.com/index.html&lt;/loc&gt;
+    &lt;lastmod&gt;2025-07-07&lt;/lastmod&gt;
+    &lt;priority&gt;1.00&lt;/priority&gt;
+  &lt;/url&gt;
+  &lt;url&gt;
+    &lt;loc&gt;https://www.your-domain.com/terms.html&lt;/loc&gt;
+    &lt;lastmod&gt;2025-07-07&lt;/lastmod&gt;
+    &lt;priority&gt;0.80&lt;/priority&gt;
+  &lt;/url&gt;
+  &lt;url&gt;
+    &lt;loc&gt;https://www.your-domain.com/privacy.html&lt;/loc&gt;
+    &lt;lastmod&gt;2025-07-07&lt;/lastmod&gt;
+    &lt;priority&gt;0.80&lt;/priority&gt;
+  &lt;/url&gt;
+&lt;/urlset&gt;
